@@ -1,0 +1,39 @@
+<div class="wrapper">
+  <div class="content">
+    <img class="logo" src="../../assets/img/logo-text.png" />
+    <img class="pic" src="../../assets/img/login-figure-pic.png" />
+    <div class="form-container">
+      <div class="input-container">
+        <app-input [isVisible]="true" [placeHolder]="'Account'"></app-input>
+        <app-input [isVisible]="false" [placeHolder]="'Password'"></app-input>
+        <app-input
+          [isVisible]="false"
+          [placeHolder]="'6-digit code from Google Authenticator'"
+        ></app-input>
+      </div>
+      <div class="remember-account-container">
+        <label class="container"
+          ><div>Remember Account</div>
+          <input type="checkbox" checked="checked" />
+          <span class="checkmark"></span>
+        </label>
+      </div>
+    </div>
+    <div class="button">Register</div>
+    <div class="button">Log in</div>
+    <div class="forget-password-container">
+      <div class="subtitle">Forget Password</div>
+      <div class="pass-word-button-container">
+        <div class="pass-word-type">
+          <img src="../../assets/img/button-1-icon.png" />
+        </div>
+        <div class="pass-word-type">
+          <img src="../../assets/img/button-2-icon.png" />
+        </div>
+        <div class="pass-word-type">
+          <img src="../../assets/img/button-3-icon.png" />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

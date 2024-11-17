@@ -1,0 +1,12 @@
+<div class="wrapper">
+  <input [type]="isVisible ? 'text' : 'password'" [placeholder]="placeHolder" />
+  <div class="icon" (click)="toggleVisibility()">
+    <img
+      [src]="
+        isVisible
+          ? '../../../assets/img/visible.png'
+          : '../../../assets/img/invisible.png'
+      "
+    />
+  </div>
+</div>

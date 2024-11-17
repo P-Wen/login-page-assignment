@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 0.5rem;
+  padding: 0.8rem 0.8rem;
+  align-items: center;
+
+  .icon {
+    display: flex;
+    align-items: center;
+    width: 38px;
+    height: 38px;
+    cursor: pointer;
+  }
+
+  input {
+    background-color: transparent;
+    border: none;
+    flex: 1;
+    font-size: 1.2rem;
+  }
+
+  input:focus{
+    outline: none;
+  }
+
+}
